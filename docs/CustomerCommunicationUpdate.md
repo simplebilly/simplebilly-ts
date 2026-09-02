@@ -1,0 +1,48 @@
+
+# CustomerCommunicationUpdate
+
+
+## Properties
+
+Name | Type
+------------ | -------------
+`body` | string
+`channel` | [CommunicationChannel](CommunicationChannel.md)
+`contactId` | string
+`counterparty` | string
+`direction` | [CommunicationDirection](CommunicationDirection.md)
+`occurredAt` | Date
+`subject` | string
+`tags` | any
+
+## Example
+
+```typescript
+import type { CustomerCommunicationUpdate } from '@simplebilly/api'
+
+// TODO: Update the object below with actual values
+const example = {
+  "body": null,
+  "channel": null,
+  "contactId": null,
+  "counterparty": null,
+  "direction": null,
+  "occurredAt": null,
+  "subject": null,
+  "tags": null,
+} satisfies CustomerCommunicationUpdate
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as CustomerCommunicationUpdate
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+
